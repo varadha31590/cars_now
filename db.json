@@ -1,0 +1,51 @@
+{
+  "added_cars": [
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "company_name": "Maruthi Suzuki",
+      "logo": "https://1000logos.net/wp-content/uploads/2022/08/Maruti-Suzuki-Logo.png"
+    },
+    {
+      "id": "2",
+      "company_name": "Porsche",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/02/Porsche-Logo.png"
+    },
+    {
+      "id": "3",
+      "company_name": "BMW",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/02/BMW-Logo.png"
+    },
+    {
+      "id": "4",
+      "company_name": "Tesla",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/04/Tesla-logo.png"
+    },
+    {
+      "id": "5",
+      "company_name": "Chevrolet",
+      "logo": "https://1000logos.net/wp-content/uploads/2019/12/Chevrolet-logo.png"
+    },
+    {
+      "id": "6",
+      "company_name": "Ford",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/02/Ford-Logo.png"
+    },
+    {
+      "id": "7",
+      "company_name": "Mercedes",
+      "logo": "https://1000logos.net/wp-content/uploads/2018/04/Mercedes-Benz-Logo.png"
+    },
+    {
+      "id": "8",
+      "company_name": "Toyota",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/04/Toyota-logo.png"
+    },
+    {
+      "id": "9",
+      "company_name": "Volkswagan",
+      "logo": "https://1000logos.net/wp-content/uploads/2021/04/Volkswagen-logo.png"
+    }
+  ]
+}

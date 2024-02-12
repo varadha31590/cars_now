@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+body{
+  margin:0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  float: left;
+  width: 100%;
+  background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.company_detail{
+  float:left;
+  padding: 0px 20px;
+}
+.company_detail a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color:rgb(45, 121, 227);
+}
+.company_detail img {
+  height: 60px;
+  vertical-align: middle;
+  margin:auto 20px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.company_name{
+  color:aqua;
+  float:left;
+  font-size: 24px;
+  font-weight: 700;
+}
+.header_ul  {
+ list-style-type: none;
+  margin:0;
+  padding: 0;
+  float: left;
+  margin-top:5px;
+  margin-left:13%;
+}
+
+.header_ul li{
+  float:left;
+  background-color: black;
+}
+
+.header_ul li a {
+  display: block;
+  padding: 14px 75px;
+  text-decoration: none;
+  color:white;
+}
+
+.home{
+  float:left;
+  width:100%;
+}
+.companies_list{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(243, 243, 243);
+  margin:auto;
+  width: 80%;
+  margin-top: 100px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.car {
+  width:150px;
+  margin:15px;
+  padding:10px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+.car:hover {
+  cursor: pointer;
+}
+.car img {
+  display:block;
+  width:100%;
+  height:auto;
+  margin:auto;
+  -o-object-fit: contain;
+  margin-bottom: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.car_form table {
+    width: 50%;
+    margin: 100px auto;
+}
+.car_form table tr td {
+  height:50px;
+}
+.car_form table tr td input{
+  height:40px;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart_list {
+  width:100%;
+  float:left;
+  margin:0px auto 100px auto;
+
+}
+.cart_list table, .cart_list td, .cart_list th {
+ 
+  text-align: left;
+  padding: 15px 10px
+}
+.cart_list table th, .cart_list table td {
+  border-bottom: 1px solid lightgrey;
+}
+
+.cart_list table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.view_cars_list{
+  width:100%;
+  display: flex;
+}
+.view_cars_list > div {
+  padding: 20px;
+}
+
+.view_cars_list table tr td{
+  padding: 15px;;
+}
+
+.view_cars_list table tr td div{
+  margin-bottom: 10px;
+}
+.view_cars_list table tr td label {
+  margin-right: 15px;
+}
+
+.label{
+  font-weight: 600;
+}
+.fields{
+  margin-left:25px;
+}
+.result_list{
+  margin:initial;
+}
+.filterd_cars{
+  width:75%;
 }
